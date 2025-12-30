@@ -20,19 +20,21 @@ Foram realizados testes manuais na funcionalidade de **autenticação**, incluin
 - Testes positivos e negativos
 - Validação de mensagens e fluxos de autenticação
 
-## 📁 Estrutura do projeto
+## 📁 Estrutura do Projeto
 
 qa-manual-the-internet/
+├── README.md
+├── .gitignore
 ├── plano-de-testes/
 │   └── plano-de-testes.md
-├── casos-de-teste/
+├── caso-de-teste/
 │   └── casos-de-teste.md
-├── relatorio-de-testes/
-│   └── relatorio-de-testes.md
 ├── relatorio-de-bugs/
-│   └── relatorio-de-bugs.md
-├── .gitignore
-└── README.md
+│   ├── bug-001-login-mensagem-generica.md
+│   ├── bug-002-sessao-permanece-apos-logout.md
+│   └── bug-003-login-mensagem-pouco-especifica.md
+└── relatorio-final/
+    └── relatorio-final-de-testes.md
 
 
 
