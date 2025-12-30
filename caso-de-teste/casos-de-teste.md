@@ -139,6 +139,16 @@ Verificar se o usuário consegue encerrar a sessão com sucesso após realizar o
 **Resultado esperado:**  
 O sistema deve encerrar a sessão do usuário, redirecioná-lo para a página de login e exibir uma mensagem informando que o logout foi realizado com sucesso.
 
+**Dados de teste:**
+- Usuário: `tomsmith`
+- Senha: `SuperSecretPassword!`
+
+**Resultado obtido:**  
+O sistema encerrou a sessão do usuário com sucesso, redirecionando para a página de login e exibindo a mensagem de logout realizado com sucesso.
+
+**Status:**  
+✅ Passou
+
 
 
 
